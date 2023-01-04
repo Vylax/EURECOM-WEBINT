@@ -13,14 +13,8 @@ html {
     align-items: center;
   }
   
-  #c1 {
-    background-color: #3CE49F;
-    box-shadow: 0 5px 15px 0px rgba(60,228,159,.65);
-    color: white;
-  }
-  
   .button {
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: white;
     box-shadow: 0 5px 15px 0px rgba(0,0,0,.15);
     
@@ -30,5 +24,11 @@ html {
     text-align: center;
     font-family: Calibri;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+  }
+  
+  .button:hover {
+    background-color: #3CE49F;
+    box-shadow: 0 5px 15px 0px rgba(60,228,159,.65);
+    color: white;
   }
