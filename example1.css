@@ -35,18 +35,3 @@ html {
     color: white;
     transform: translateY(-5px);
   }
-
-  /* @keyframes hoverAnimation {
-    0% {
-        transform: translateY(0px);
-        box-shadow: 0 5px 15px 0px rgba(60,228,159,.85);
-    }
-    70% {
-        transform: translateY(-10px);
-        box-shadow: 0 5px 15px 0px rgba(60,228,159,.7);
-    }
-    100% {
-        transform: translateY(-15px);
-        box-shadow: 0 5px 15px 0px rgba(60,228,159,.65);
-    }
-  } */

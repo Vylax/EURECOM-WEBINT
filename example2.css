@@ -1,0 +1,19 @@
+.red {
+    background-color: rgba(245, 114, 114, 0.799);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.specialRed {
+    font-size: 24px;
+}
+
+#blue {
+    font-size: 36px;
+    color: rgb(0, 0, 255);
+}
+
+#green {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgba(48, 255, 93, 0.744);
+}
