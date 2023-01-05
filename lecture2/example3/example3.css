@@ -1,17 +1,38 @@
-body {
-    height: 100%;
-    width: 100%;
-
+.container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    align-content: space-between;
+    flex-flow: row wrap;
 }
 
-aside {
-    float: right;
-    width: 38%;
-    height: 100%;
+.container > * {/*refers to all children of a class="container" element*/
+    padding: 10px;
+    flex: 1 100%; /*grow: 1 | shrink: 1 | basis: 100%*/
+}
+
+header {
+    background-color: blueviolet;
+}
+
+.aside {
+    flex: 1 0 0; /*flex: grow shrink basis*/
+}
+
+.asideR {
+    background-color: green;
+    order: 1;
+}
+
+.main {
+    background-color: blue;
+    flex: 3 0px;
+    order: 2;
+}
+
+.asideL {
     background-color: red;
+    order: 3;
+}
+
+footer {
+    background-color: orange;
+    order: 4;
 }
