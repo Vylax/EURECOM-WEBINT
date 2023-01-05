@@ -1,0 +1,17 @@
+body {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+aside {
+    float: right;
+    width: 38%;
+    height: 100%;
+    background-color: red;
+}
